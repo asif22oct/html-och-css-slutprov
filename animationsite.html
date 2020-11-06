@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox layout</title>
+    <link rel="stylesheet" href="animation.css">
+<style>
+    .animation {
+        width: 200px;
+        height: 200px;
+        background-color: green;
+        animation-name: example;
+        animation-duration: 4s;
+      }
+      
+      @keyframes example {
+        from {background-color:pink;}
+        to {background-color:yellow;}
+      }
+
+.animation2{
+  width: 200px;
+  height: 200px;
+  background:yellow;
+  transition: width 1s;
+}
+
+animation2:hover {
+  width: 500px;
+}
+
+
+
+
+</style>
+</head>
+
+<body>
+    <header>
+    
+        <div class="menu">
+            <ul>
+                <li><a href="#">Lista 1</a></li>
+                <li><a href="#">Lista 2</a>
+                    <ul><li><a href="#">Lista 1</a></li>
+                        
+                        <li><a href="#">Inre Lista 2</a>
+                            <ul>
+                                <li><a href="#">Deep Menu 1</a></li>
+                                <li><a href="#">Deep Menu 2</a></li>
+                                <li><a href="#">Deep Menu 3</a></li>
+                                <li><a href="#">Deep Menu 4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Lista 3</a></li>
+                        <li><a href="#">Lista 4</a></li>
+                    </ul>
+    
+                </li>
+                <li><a href="#">Lista 5</a></li>
+                <li>
+                    <a href="#">Lista 6</a>
+                    <ul>
+                        <li><a href="#">Lista 1</a></li>
+                        <li>
+                            <a href="#">Inre Lista 2</a>
+                            <ul>
+                                <li><a href="#">Deep Menu 1</a></li>
+                                <li>
+                                    <a href="#">Deep Menu 2</a>
+                                    
+                                </li>
+                                <li><a href="#">Deep Menu 3</a></li>
+                                <li><a href="#">Deep Menu 4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Lista 3</a></li>
+                        <li><a href="#">Lista 4</a></li>
+                    </ul>
+                </li>
+            </ul>
+           
+        </div>
+    
+
+    <div id="logo">
+        <a href="">Asif Rehman</a>
+    </div>
+</header>
+
+
+<div id="main">
+
+<h2>Welcome to see Animation</h2>
+<h2>Please hover over box</h2>
+
+
+</div>
+</div>
+
+
+<div class="animation">
+
+Here is Animation 1
+</div>
+
+<div class="animation2">
+Here is Animation 2
+
+</div>
+
+
+<h3><a href="Startsida.html">Go Back</a></h3>
+
+</body>
+</html>
